@@ -1,5 +1,5 @@
 # phaser3-spine-simple
-Phaser with SpinePlugin in the simplest form without npm
+Phaser with SpinePlugin in the simplest form without `npm` or tooling
 
 ## Overview
 
