@@ -1,10 +1,11 @@
-# phaser3-spine-simple
+# Simple Phaser with SpinePlugin Example
 Phaser with SpinePlugin in the simplest form without `npm` or tooling
 
 ## Overview
 
 This example is a simple, barebones setup with the SpinePlugin that loads SpineBoy. There is no use of `npm` or any other tooling. Scripts are included in `index.html` via `script` tags.
 
+`phaser.min.js` was taken from https://github.com/photonstorm/phaser/tree/master/dist
 `SpinePlugin.min.js` was taken from https://github.com/photonstorm/phaser/tree/master/plugins/spine/dist
 
 ## Running the Example
