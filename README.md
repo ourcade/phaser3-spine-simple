@@ -35,3 +35,24 @@ http-server
 ```
 
 For more information on local server options, including from VSCode or Brackets, [check out this article](https://blog.ourcade.co/posts/2020/5-local-web-server-get-started-phaser-3/).
+
+## Alternative Loading Option
+
+If you are running into errors using the example code then try loading the SpinePlugin as a PackFile. Update your `scene` config to add the `pack` key like this:
+
+```js
+const config = {
+  // ...
+  scene: {
+    preload: preload,
+    create: create,
+    pack: {
+      files: [
+        { type: 'scenePlugin', key: 'SpinePlugin', url: 'SpinePlugin.min.js', sceneKey: 'spine' }
+      ]
+    }
+  }
+}
+
+var game = new Phaser.Game(config)
+```
