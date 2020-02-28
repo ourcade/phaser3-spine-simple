@@ -11,6 +11,8 @@ This example is a simple, barebones setup with the SpinePlugin that loads SpineB
 
 The entry point is `main.js`.
 
+This example was last checked with Phaser v3.22
+
 ## Running the Example
 
 You will need to run a local web server to run this example. If you have `python` installed:
