@@ -56,3 +56,5 @@ const config = {
 
 var game = new Phaser.Game(config)
 ```
+
+And remove `<script src="SpinePlugin.min.js"></script>` from your `index.html`.
