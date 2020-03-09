@@ -13,6 +13,8 @@ The entry point is `main.js`.
 
 This example was last checked with Phaser v3.22
 
+[Check out this article for a more detailed set up guide.](https://blog.ourcade.co/posts/2020/how-to-get-phaser-spine-plugin-work-without-npm/)
+
 ## Running the Example
 
 You will need to run a local web server to run this example. If you have `python` installed:
